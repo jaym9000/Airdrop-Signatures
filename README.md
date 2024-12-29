@@ -23,13 +23,17 @@ Welcome to my exploration of advanced Solidity techniques focused on Merkle Aird
 ```bash 
 git clone [your-repo-url]
 ```
-1. **Install Dependencies**:
+2. **Install Dependencies**:
 - Ensure you have Foundry installed. 
 - Run `forge install` for any additional dependencies.
 
-1. **Explore & Learn**:
+3. **Explore & Learn**:
 - Dive into the code, experiment with the contracts.
 - Run tests with `forge test` to see implementations in action.
+
+4. To get an input run the GenerateInput.s.sol using ```forge script script/GenerateInput.s.sol:GenerateInput```
+
+5. To get an output run the MakeMerkle.s.sol using ```forge script script/MakeMerkle.s.sol:MakeMerkle```
 
 ## Contribute
 
