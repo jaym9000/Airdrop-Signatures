@@ -44,7 +44,7 @@ contract MerkleAirdrop {
     /*//////////////////////////////////////////////////////////////
                                 FUNCTION
     //////////////////////////////////////////////////////////////*/
-    // We need to add signature signing to the function
+    // We need to add signature signing to the function, learned about ECDSA signatures.
     function claim(address account, uint256 amount, bytes32[] calldata merkleProof) external {
         if (s_hasClaimed[account]) {
             revert MerkleAirdrop_AlreadyClaimed();
