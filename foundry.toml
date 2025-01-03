@@ -6,7 +6,8 @@ fs_permissions = [{ access = "read-write", path = "./"}]
 remappings = [
     'murky/=lib/murky/',
     '@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/', 
-    'forge-std=lib/forge-std/src/' 
+    'forge-std=lib/forge-std/src/'
+    # 'foundry-devops/=libs/foundry-devops/'
 ]
 
 
